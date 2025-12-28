@@ -37,14 +37,14 @@
 ###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=BangJeongBin&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=BangJeongBin&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="https://streak-stats.demolab.com?user=bangjeongbin&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=bangjeongbin&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
 ### 
 
 <img src="https://raw.githubusercontent.com/bangjeongbin/github-stats-transparent/output/generated/overview.svg" width="49.2%" /> 
-<img src="https://raw.githubusercontent.com/BangJeongBin/github-stats-transparent/output/generated/languages.svg?exclude_repo=Frontend-School3" width="49.2%" />
+<img src="https://raw.githubusercontent.com/bangjeongbin/github-stats-transparent/output/generated/languages.svg?exclude_repo=Frontend-School3" width="49.2%" />
 
 ### 
 
