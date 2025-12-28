@@ -43,7 +43,10 @@
 
 ### 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BangJeongBin&langs_count=4&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+<img src="https://raw.githubusercontent.com/BangJeongBin/github-stats-transparent/output/generated/overview.svg" width="49.2%" /> 
+<img src="https://raw.githubusercontent.com/BangJeongBin/github-stats-transparent/output/generated/languages.svg?exclude_repo=Frontend-School3" width="49.2%" />
+
+### 
 
 <!-- 팩맨 애니메이션 -->
 <picture>
