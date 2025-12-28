@@ -43,6 +43,8 @@
 
 ### 
 
+[![Jeongbin GitHub stats](https://github-readme-stats.vercel.app/api?username=BangJeongBin&show_icons=true&theme=테마a&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+
 <!-- 팩맨 애니메이션 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bangjeongbin/bangjeongbin/output/pacman-contribution-graph-dark.svg">
