@@ -33,6 +33,10 @@
   <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
 </div>
 
+<div style="display: flex">
+    <img width="100%" src="https://github-profile-trophy.vercel.app/?username=bangjeongbin&no-bg=true&column=4&theme=darkhub" />
+</div>
+
 <!-- streak, trophy -->
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=bangjeongbin&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
