@@ -22,7 +22,7 @@
   <img src="https://skillicons.dev/icons?i=aws" height="60" alt="amazonwebservices logo"  />
 </div>
 
-- Hello, World
+* Hello, World
 
 <!--contect -->
 <div align="center">
