@@ -36,6 +36,8 @@
     <img width="100%" src="https://github-profile-trophy.vercel.app/?username=BangJeongBin&no-bg=true&column=4&theme=darkhub" />
 </div>
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=bangjeongbin)](https://github.com/ryo-ma/github-profile-trophy)
+
 <!-- streak, trophy -->
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=bangjeongbin&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
