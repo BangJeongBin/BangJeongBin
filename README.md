@@ -33,7 +33,7 @@
 
 <!-- total trophy -->
 <div style="display: flex">
-    <img width="100%" src="https://github-profile-trophy.vercel.app/?username=bangjeongbin&no-bg=true&column=4&theme=darkhub" />
+    <img width="100%" src="https://github-profile-trophy.vercel.app/?username=BangJeongBin&no-bg=true&column=4&theme=darkhub" />
 </div>
 
 <!-- streak, trophy -->
