@@ -30,7 +30,7 @@
   <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo"  />
   <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
 </div>
-
+[![좋아요](https://github-profile-trophy.vercel.app/?username=bangjeongbin&no-bg=true&column=4&theme=darkhub)](https://github.com/ryo-ma/github-profile-trophy)
 <!-- total trophy -->
 <div style="display: flex">
     <img width="100%" src="https://github-profile-trophy.vercel.app/?username=BangJeongBin&no-bg=true&column=4&theme=darkhub" />
