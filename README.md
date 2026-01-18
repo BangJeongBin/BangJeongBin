@@ -1,10 +1,6 @@
 <!-- 타이틀 -->
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Jeongbin&fontAlign=80&fontAlignY=40&color=auto)
 
-
-
-
-
 <!-- tools 로고 -->
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
@@ -25,7 +21,6 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=aws" height="60" alt="amazonwebservices logo"  />
 </div>
-
 
 <!--contect -->
 <div align="center">
