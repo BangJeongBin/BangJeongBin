@@ -2,7 +2,7 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Jeongbin&fontAlign=80&fontAlignY=40&color=auto)
 
 <p align="center">
-  <img src="https://media1.tenor.com/m/ggEhlnsTGiYAAAAd/gendo-stare-neon-genesis-evangelion.gif" width="300" />
+  <img src="https://media1.tenor.com/m/ggEhlnsTGiYAAAAd/gendo-stare-neon-genesis-evangelion.gif" width="100%" />
 </p>
 
 <div align="center">
