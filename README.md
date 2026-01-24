@@ -11,7 +11,7 @@
 
 <!-- github stats -->
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=bangjeongbin&show_icons=true&theme=tokyonight&hide_border=true" />  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bangjeongbin&layout=compact&theme=tokyonight&hide_border=true" />
+  <div><img height="180" src="https://github-readme-stats.vercel.app/api?username=bangjeongbin&show_icons=true&theme=tokyonight&hide_border=true" /></div>  <div><img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bangjeongbin&layout=compact&theme=tokyonight&hide_border=true" /></div>
 </div>
 
 <!-- tools 로고 -->
@@ -45,19 +45,19 @@
 </div> -->
 
 <!-- total trophy -->
-<div style="display: flex">
+<!-- <div style="display: flex">
     <img width="100%" src="https://github-profile-trophy.vercel.app/?username=BangJeongBin&no-bg=true&column=4&theme=darkhub" />
-</div>
+</div> -->
 
 <!-- streak, trophy -->
-<div align="center">
+<!-- <div align="center">
   <img src="https://streak-stats.demolab.com?user=bangjeongbin&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=bangjeongbin&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
-</div>
+</div> -->
 
 <!-- commit 관련 -->
-<img src="https://raw.githubusercontent.com/bangjeongbin/github-stats-transparent/output/generated/overview.svg" width="49.2%" /> 
-<img src="https://raw.githubusercontent.com/bangjeongbin/github-stats-transparent/output/generated/languages.svg?exclude_repo=Frontend-School3" width="49.2%" />
+<!-- <img src="https://raw.githubusercontent.com/bangjeongbin/github-stats-transparent/output/generated/overview.svg" width="49.2%" /> 
+<img src="https://raw.githubusercontent.com/bangjeongbin/github-stats-transparent/output/generated/languages.svg?exclude_repo=Frontend-School3" width="49.2%" /> -->
 
 <!-- 팩맨 애니메이션 -->
 <picture>
