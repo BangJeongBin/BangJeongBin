@@ -1,7 +1,12 @@
 <!-- 타이틀 -->
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Jeongbin&fontAlign=80&fontAlignY=40&color=auto)
 
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=bangjungbin&show_icons=true&theme=buefy&hide_border=true" alt="" />
+<a href="https://github.com/YOUR_GITHUB_ID">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_ID&show_icons=true" />
+</a>
+<a href="https://github.com/YOUR_GITHUB_ID">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_ID&layout=compact" />
+</a>
 
 
 <!-- tools 로고 -->
