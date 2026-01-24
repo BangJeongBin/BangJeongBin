@@ -1,6 +1,8 @@
 <!-- 타이틀 -->
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Jeongbin&fontAlign=80&fontAlignY=40&color=auto)
 
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=bangjungbin&show_icons=true&theme=buefy&hide_border=true" alt="" />
+
 
 <!-- tools 로고 -->
 <div align="center">
