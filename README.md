@@ -1,9 +1,15 @@
 <!-- 타이틀 -->
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Jeongbin&fontAlign=80&fontAlignY=40&color=auto)
 
+<p align="center">
+  <img src="https://media1.tenor.com/m/ggEhlnsTGiYAAAAd/gendo-stare-neon-genesis-evangelion.gif" width="300" />
+</p>
+
 <div align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=bangjeongbin&show_icons=true&theme=tokyonight" />  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bangjeongbin&layout=compact&theme=tokyonight" />
 </div>
+
+https://media1.tenor.com/m/ggEhlnsTGiYAAAAd/gendo-stare-neon-genesis-evangelion.gif
 
 <!-- tools 로고 -->
 <div align="center">
