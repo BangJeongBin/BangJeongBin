@@ -1,22 +1,21 @@
 <!-- 타이틀 -->
 <!-- ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Jeongbin&fontAlign=80&fontAlignY=40&color=auto) -->
 
+<!-- git 이미지 -->
 <p align="center">
-  <img src="https://media1.tenor.com/m/ggEhlnsTGiYAAAAd/gendo-stare-neon-genesis-evangelion.gif" width="100%" />
+  <img src="https://media1.tenor.com/m/OB9OwVEaCtgAAAAd/congratulations-evangelion.gif" width="100%" />
 </p>
 
 <hr/>
-
 <br>
 
+<!-- github stats -->
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=bangjeongbin&show_icons=true&theme=tokyonight" />  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bangjeongbin&layout=compact&theme=tokyonight" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=bangjeongbin&show_icons=true&theme=tokyonight&hide_border=true" />  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bangjeongbin&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
-https://media1.tenor.com/m/ggEhlnsTGiYAAAAd/gendo-stare-neon-genesis-evangelion.gif
-
 <!-- tools 로고 -->
-<div align="center">
+<!-- <div align="center">
   <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="nextjs logo"  />
@@ -34,16 +33,16 @@ https://media1.tenor.com/m/ggEhlnsTGiYAAAAd/gendo-stare-neon-genesis-evangelion.
   <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=aws" height="60" alt="amazonwebservices logo"  />
-</div>
+</div> -->
 
 <!--contect -->
-<div align="center">
+<!-- <div align="center">
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
   <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
   <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo"  />
   <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
-</div>
+</div> -->
 
 <!-- total trophy -->
 <div style="display: flex">
