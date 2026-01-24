@@ -1,9 +1,10 @@
 <!-- 타이틀 -->
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Jeongbin&fontAlign=80&fontAlignY=40&color=auto)
 
-| <img height="180" src="https://github-readme-stats.vercel.app/api?username=bangjeongbin&show_icons=true&theme=tokyonight" /> | <a href="https://github.com/bangjeongbin"><img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bangjeongbin&layout=compact&theme=tokyonight" /></a> |
+<div align-"center">
+| <img height="180" src="https://github-readme-stats.vercel.app/api?username=bangjeongbin&show_icons=true&theme=tokyonight" /> | <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bangjeongbin&layout=compact&theme=tokyonight" /> |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
+</div>div>
 
 <!-- tools 로고 -->
 <div align="center">
