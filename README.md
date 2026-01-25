@@ -3,7 +3,7 @@
 
 <!-- git 이미지 -->
 <p align="center">
-  <img src="./congratulations-evangelion.gif" width="100%" />
+  <img src="./congratulations-evangelion.gif" width="80%" />
 </p>
 
 <hr/>
