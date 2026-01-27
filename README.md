@@ -1,7 +1,6 @@
 <!-- 타이틀 -->
 <!-- ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Jeongbin&fontAlign=80&fontAlignY=40&color=auto) -->
 
-
 <!-- git 이미지 -->
 <p align="center">
   <img src="./congratulations-evangelion.gif" width="80%" />
