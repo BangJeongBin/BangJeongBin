@@ -6,7 +6,6 @@
   <img src="./congratulations-evangelion.gif" width="80%" />
 </p>
 
-
 <hr/>
 <br>
 
