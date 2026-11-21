@@ -33,13 +33,41 @@
 >
 > *Thanks for your patience and continued support !*
 
-<!-- ⚠️ 아래 GIST_ID 를 본인의 gist ID 로 모두 바꿔주세요 (찾아 바꾸기 권장) -->
+<!-- ⚠️ 아래 37ac5f1b3a273b58cc06547146f8b202 를 본인의 gist ID 로 모두 바꿔주세요 (찾아 바꾸기 권장) -->
+
+<!-- 1행 : general (terminal) | languages -->
 [<img align="left" width="390" alt="general" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/general.svg">](#)
 [<img align="right" width="390" alt="languages" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/languages.svg">](#)
-[<img align="right" width="390" height="80" alt="" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/placeholder.svg">](#)
 
+[<img width="100%" height="1" alt="" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/placeholder.svg">](#)
+
+<!-- 2행 : habits | achievements -->
 [<img align="left" width="390" alt="habits" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/habits.svg">](#)
 [<img align="right" width="390" alt="achievements" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/achievements.svg">](#)
+
+[<img width="100%" height="1" alt="" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/placeholder.svg">](#)
+
+<!-- 3행 : isocalendar | TIL posts -->
+[<img align="left" width="390" alt="isocalendar" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/isocalendar.svg">](#)
+[<img align="right" width="390" alt="til" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/til.svg">](#)
+
+[<img width="100%" height="1" alt="" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/placeholder.svg">](#)
+
+<!-- 4행 : skyline | stars -->
+[<img align="left" width="390" alt="skyline" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/skyline.svg">](#)
+[<img align="right" width="390" alt="stars" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/stars.svg">](#)
+
+[<img width="100%" height="1" alt="" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/placeholder.svg">](#)
+
+<!-- 5행 : pinned repositories | PR & issues follow-up -->
+[<img align="left" width="390" alt="repositories" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/repositories.svg">](#)
+[<img align="right" width="390" alt="followup" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/followup.svg">](#)
+
+[<img width="100%" height="1" alt="" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/placeholder.svg">](#)
+
+<!-- 6행 : starred topics | leetcode  (LeetCode 계정이 없으면 오른쪽 줄 삭제) -->
+[<img align="left" width="390" alt="topics" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/topics.svg">](#)
+[<img align="right" width="390" alt="leetcode" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/leetcode.svg">](#)
 
 [<img width="100%" height="1" alt="" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/placeholder.svg">](#)
 
