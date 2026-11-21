@@ -1,30 +1,132 @@
+# name: Metrics
+
+# on:
+#   # 매일 09:00 (KST) 갱신
+#   schedule: [{ cron: "0 0 * * *" }]
+#   workflow_dispatch:
+
+# env:
+#   GIST_ID: 37ac5f1b3a273b58cc06547146f8b202
+
+# jobs:
+#   metrics:
+#     runs-on: ubuntu-latest
+#     steps:
+#       # general.svg : 계정 전체 개요 (README 왼쪽 위)
+#       - name: general.svg
+#         uses: lowlighter/metrics@latest
+#         with:
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           filename: general.svg
+#           output_action: gist
+#           committer_gist: ${{ env.GIST_ID }}
+#           config_timezone: Asia/Seoul
+#           base: header, activity, community, repositories, metadata
+
+#       # languages.svg : 사용 언어 (README 오른쪽 위)
+#       - name: languages.svg
+#         uses: lowlighter/metrics@latest
+#         with:
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           filename: languages.svg
+#           output_action: gist
+#           committer_gist: ${{ env.GIST_ID }}
+#           config_timezone: Asia/Seoul
+#           base: ""
+#           plugin_languages: yes
+#           plugin_languages_sections: most-used
+#           plugin_languages_threshold: 0%
+
+#       # habits.svg : 커밋 시간대/요일 등 코딩 습관 (README 왼쪽 아래)
+#       - name: habits.svg
+#         uses: lowlighter/metrics@latest
+#         with:
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           filename: habits.svg
+#           output_action: gist
+#           committer_gist: ${{ env.GIST_ID }}
+#           config_timezone: Asia/Seoul
+#           base: ""
+#           plugin_habits: yes
+#           plugin_habits_from: 200
+#           plugin_habits_days: 30
+#           plugin_habits_facts: yes
+#           plugin_habits_charts: yes
+
+#       # achievements.svg : 업적 (README 오른쪽 아래)
+#       - name: achievements.svg
+#         uses: lowlighter/metrics@latest
+#         with:
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           filename: achievements.svg
+#           output_action: gist
+#           committer_gist: ${{ env.GIST_ID }}
+#           config_timezone: Asia/Seoul
+#           base: ""
+#           plugin_achievements: yes
+#           plugin_achievements_display: compact
+#           plugin_achievements_threshold: C
+#           plugin_achievements_secrets: yes
+
+#       - name: Full-year calendar
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: metrics.plugin.isocalendar.fullyear.svg
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           base: ""
+#           plugin_isocalendar: yes
+#           plugin_isocalendar_duration: full-year
+# ---
 name: Metrics
 
 on:
   # 매일 09:00 (KST) 갱신
   schedule: [{ cron: "0 0 * * *" }]
+  # 처음 한 번은 Actions 탭에서 수동 실행
   workflow_dispatch:
 
+# 이전 실행이 끝나기 전에 새 실행이 겹치지 않도록
+concurrency:
+  group: metrics
+  cancel-in-progress: true
+
 env:
+  # TODO(필수): SVG 가 올라갈 gist 의 ID  (https://gist.github.com/BangJeongBin/<여기>)
   GIST_ID: 37ac5f1b3a273b58cc06547146f8b202
+  # TODO(확인): TIL 블로그 RSS 주소 (브라우저로 열어서 XML 이 보이는지 확인)
+  RSS_SOURCE: https://bangjeongbin.github.io/TIL-Blog/feed.xml
+  # TODO(선택): leetcode.com 아이디 (계정이 없으면 leetcode.svg step 과 README 의 해당 줄을 삭제)
+  LEETCODE_USER: bangjeongbin
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    # SVG 12장을 순서대로 렌더링하므로 넉넉하게
+    timeout-minutes: 90
     steps:
-      # general.svg : 계정 전체 개요 (README 왼쪽 위)
+      # ════════════════════════════════════════════════════════════
+      # [1행 왼쪽] general.svg : 계정 개요 (터미널 템플릿)
+      #  - 토큰/gist 설정이 틀리면 여기서 바로 실패하도록 일부러 strict 로 둡니다.
+      #  - 이 step 이 실패하면 아래 step 들은 실행되지 않습니다.
+      # ════════════════════════════════════════════════════════════
       - name: general.svg
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          template: terminal
           filename: general.svg
           output_action: gist
           committer_gist: ${{ env.GIST_ID }}
           config_timezone: Asia/Seoul
           base: header, activity, community, repositories, metadata
 
-      # languages.svg : 사용 언어 (README 오른쪽 위)
+      # ════════════════════════════════════════════════════════════
+      # 아래부터는 한 장이 실패해도 나머지는 계속 진행합니다 (continue-on-error)
+      # ════════════════════════════════════════════════════════════
+
+      # [1행 오른쪽] languages.svg : 사용 언어
       - name: languages.svg
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -35,10 +137,13 @@ jobs:
           base: ""
           plugin_languages: yes
           plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
           plugin_languages_threshold: 0%
 
-      # habits.svg : 커밋 시간대/요일 등 코딩 습관 (README 왼쪽 아래)
+      # [2행 왼쪽] habits.svg : 커밋 시간대 · 요일 · 코딩 습관
       - name: habits.svg
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -52,9 +157,11 @@ jobs:
           plugin_habits_days: 30
           plugin_habits_facts: yes
           plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
 
-      # achievements.svg : 업적 (README 오른쪽 아래)
+      # [2행 오른쪽] achievements.svg : 업적
       - name: achievements.svg
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -68,12 +175,124 @@ jobs:
           plugin_achievements_threshold: C
           plugin_achievements_secrets: yes
 
-      - name: Full-year calendar
+      # [3행 왼쪽] isocalendar.svg : 아이소메트릭 커밋 캘린더 (1년)
+      - name: isocalendar.svg
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          filename: isocalendar.svg
+          output_action: gist
+          committer_gist: ${{ env.GIST_ID }}
+          config_timezone: Asia/Seoul
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
+      # [3행 오른쪽] til.svg : TIL 블로그 최신 글 (RSS)
+      - name: til.svg
+        continue-on-error: true
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: til.svg
+          output_action: gist
+          committer_gist: ${{ env.GIST_ID }}
+          config_timezone: Asia/Seoul
+          retries: 2
+          retries_delay: 20
+          base: ""
+          plugin_rss: yes
+          plugin_rss_source: ${{ env.RSS_SOURCE }}
+          plugin_rss_limit: 4
+
+      # [4행 왼쪽] skyline.svg : GitHub Skyline (3D)
+      - name: skyline.svg
+        continue-on-error: true
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: skyline.svg
+          output_action: gist
+          committer_gist: ${{ env.GIST_ID }}
+          config_timezone: Asia/Seoul
+          retries: 2
+          retries_delay: 20
+          base: ""
+          plugin_skyline: yes
+
+      # [4행 오른쪽] stars.svg : 최근 Star 한 저장소
+      - name: stars.svg
+        continue-on-error: true
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: stars.svg
+          output_action: gist
+          committer_gist: ${{ env.GIST_ID }}
+          config_timezone: Asia/Seoul
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 4
+
+      # [5행 왼쪽] repositories.svg : 프로필에 고정(pin)한 저장소 카드
+      - name: repositories.svg
+        continue-on-error: true
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: repositories.svg
+          output_action: gist
+          committer_gist: ${{ env.GIST_ID }}
+          config_timezone: Asia/Seoul
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_pinned: 6
+
+      # [5행 오른쪽] followup.svg : 내가 만든 PR · 이슈 현황
+      - name: followup.svg
+        continue-on-error: true
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: followup.svg
+          output_action: gist
+          committer_gist: ${{ env.GIST_ID }}
+          config_timezone: Asia/Seoul
+          base: ""
+          plugin_followup: yes
+          plugin_followup_sections: user
+
+      # [6행 왼쪽] topics.svg : 내가 Star 한 토픽 (예: cybersecurity, ctf ...)
+      #  - github.com/topics 에서 토픽 페이지의 Star 버튼을 눌러둔 토픽만 표시됩니다.
+      - name: topics.svg
+        continue-on-error: true
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: topics.svg
+          output_action: gist
+          committer_gist: ${{ env.GIST_ID }}
+          config_timezone: Asia/Seoul
+          base: ""
+          plugin_topics: yes
+          plugin_topics_mode: labels
+          plugin_topics_sort: stars
+          plugin_topics_limit: 12
+
+      # [6행 오른쪽] leetcode.svg : LeetCode 풀이 현황 (leetcode.com 만 지원)
+      - name: leetcode.svg
+        continue-on-error: true
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: leetcode.svg
+          output_action: gist
+          committer_gist: ${{ env.GIST_ID }}
+          config_timezone: Asia/Seoul
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_user: ${{ env.LEETCODE_USER }}
+          plugin_leetcode_sections: solved, skills, recent
+          plugin_leetcode_limit_skills: 8
+          plugin_leetcode_limit_recent: 3
