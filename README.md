@@ -34,17 +34,19 @@
 > *Thanks for your patience and continued support !*
 
 <!-- ⚠️ 아래 GIST_ID 를 본인의 gist ID 로 모두 바꿔주세요 (찾아 바꾸기 권장) -->
-[<img align="left" width="390" alt="general" src="https://gist.githubusercontent.com/BangJeongBin/af009b7a13164e69ad75c25e01cd418e/raw/general.svg">](#)
-[<img align="right" width="390" alt="languages" src="https://gist.githubusercontent.com/BangJeongBin/af009b7a13164e69ad75c25e01cd418e/raw/languages.svg">](#)
-[<img align="right" width="390" height="80" alt="" src="https://gist.githubusercontent.com/BangJeongBin/af009b7a13164e69ad75c25e01cd418e/raw/placeholder.svg">](#)
+[<img align="left" width="390" alt="general" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/general.svg">](#)
+[<img align="right" width="390" alt="languages" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/languages.svg">](#)
+[<img align="right" width="390" height="80" alt="" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/placeholder.svg">](#)
 
-[<img align="left" width="390" alt="habits" src="https://gist.githubusercontent.com/BangJeongBin/af009b7a13164e69ad75c25e01cd418e/raw/habits.svg">](#)
-[<img align="right" width="390" alt="achievements" src="https://gist.githubusercontent.com/BangJeongBin/af009b7a13164e69ad75c25e01cd418e/raw/achievements.svg">](#)
+[<img align="left" width="390" alt="habits" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/habits.svg">](#)
+[<img align="right" width="390" alt="achievements" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/achievements.svg">](#)
 
-[<img width="100%" height="1" alt="" src="https://gist.githubusercontent.com/BangJeongBin/af009b7a13164e69ad75c25e01cd418e/raw/placeholder.svg">](#)
+[<img width="100%" height="1" alt="" src="https://gist.githubusercontent.com/BangJeongBin/37ac5f1b3a273b58cc06547146f8b202/raw/placeholder.svg">](#)
 
-<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bangjeongbin/bangjeongbin/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bangjeongbin/bangjeongbin/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/bangjeongbin/bangjeongbin/output/pacman-contribution-graph.svg">
-</p>
+</picture>
 
 <sub>These infographics were generated using [lowlighter/metrics](https://github.com/lowlighter/metrics) and [pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)</sub>
